@@ -48,9 +48,24 @@ Our primary objectives revolve around enhancing customer satisfaction and optimi
             │   __init__.py
             │   
             ├───common_utils
-                    local_operations.py
-                    logger.py
-                    __init__.py
+            │       local_operations.py
+            │       logger.py
+            │       __init__.py
+            │      
+            │           
+            ├───s3_utils
+            │       s3_client_provider.py
+            │       s3_client_util.py
+            │      
+            │           
+            ├───setup
+            │       generate_data.py
+            │       setup_local.py
+            │       sql_queries.sql
+            │       
+            ├───spark_utils
+            │       session_provider.py
+            │       spark_util.py
 
 #### Tech stack
     -> we'll be using Spark,S3,mysql.
